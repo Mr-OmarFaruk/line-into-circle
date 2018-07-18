@@ -1,0 +1,25 @@
+.container {
+  width: 100px;
+  height: 1px;
+  position: relative;
+}
+.circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: calc(50% - 5px);
+}
+.blue {
+  margin-top: 20px;
+  background: red;
+}
+.blue .circle {
+  background: red;
+  border-color: red;
+}
